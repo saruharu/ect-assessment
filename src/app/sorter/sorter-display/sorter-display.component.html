@@ -1,0 +1,8 @@
+<p>Example1: Sort by name and then by price </p>
+<div *ngFor="let item of options1 | customSort: ['name', '-price']">
+  {{item.name}} : {{item.price}}
+</div>
+<p>Example2: Sort by name </p>
+<div *ngFor="let item of options2 | customSort: '-name'">
+  {{item.name}} : {{item.price}}
+</div>
