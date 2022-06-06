@@ -1,11 +1,13 @@
 
-function deepCopy(originalObject) {
+//FUNCTION 
+function deepCopy(origin) {
 
-    return Object.assign(originalObject)
+    return Object.assign(origin)
   }
   
-  const a = {
-    string: 'string',
+//TEST
+  var originVariable = {
+    string: 'abc',
     number: 123,
     bool: false,
     nul: null,
@@ -17,7 +19,23 @@ function deepCopy(originalObject) {
         date: new Date()
     }
   }
-  console.log(a);
-  console.log(typeof a.date);  // Date object
+
+  //DEEP COPY vs SHALLOW COPY
+  var deepCopyVariable = deepCopy(originVariable);
+  var shallowCopyVariable = {...originVariable};
+
+  console.log(originVariable);  
+  console.log(deepCopyVariable);
+  console.log(shallowCopyVariable);
   
+  console.log(originVariable===deepCopyVariable);
+  console.log(originVariable===shallowCopyVariable);
+
+  //IF WE CHANGE THE VALUES:
+  originVariable.string = 'xyz';
   
+  console.log(deepCopyVariable);
+  console.log(shallowCopyVariable);
+
+  console.log(originVariable===deepCopyVariable);
+  console.log(originVariable===shallowCopyVariable);
