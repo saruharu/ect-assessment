@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-sorter-display',
   templateUrl: './sorter-display.component.html',
-  styleUrls: ['./sorter-display.component.sass']
+  styleUrls: ['./sorter-display.component.scss']
 })
 export class SorterDisplayComponent implements OnInit {
 
@@ -11,6 +11,7 @@ export class SorterDisplayComponent implements OnInit {
 
   ngOnInit(): void { }
 
+  // Examples for testing purposes
   options1: any[] = [
     {
       name: "Book1",

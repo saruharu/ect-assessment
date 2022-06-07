@@ -14,7 +14,7 @@ import { SorterDisplayComponent } from './sorter/sorter-display/sorter-display.c
     SorterPipe,
     RepeaterComponent,
     RepeatDisplayComponent,
-    SorterDisplayComponent
+    SorterDisplayComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'repeat-display',
   templateUrl: './repeat-display.component.html',
-  styleUrls: ['./repeat-display.component.sass']
+  styleUrls: ['./repeat-display.component.scss']
 })
 export class RepeatDisplayComponent implements OnInit {
 
