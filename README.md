@@ -2,6 +2,10 @@
 
 This repository contains the solutions to the ECT Frontend assessment questions. It contains both the Javascript and the Angular solutions.
 
+## Demo
+
+Stackblitz: https://stackblitz.com/github/saruharu/ect-assessment
+
 ## Start project
 
 Download or fork the project locally. 
