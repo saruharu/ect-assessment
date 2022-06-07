@@ -2,26 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
-## Development server
+## Start project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Download or fork the project locally. 
+Run `npm install` to install dependencies from the package.json
+Run `npm start` to run the project locally. Navigate to `http://localhost:4200/` to access the solutions to the Angular problems.
 
-## Code scaffolding
+## JavaScript Solutions
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In order to access the JavaScript problems solutions, open the folder "Javascript" that contains three files, one for each problem.
+Run `node Javascript-1.js` with the terminal opened to the path to run the file "Javascript-1.js for instance and so on. 
 
-## Build
+Each file contains the coding solution as well as execution examples for testing purposes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Angular Solutions
 
-## Running unit tests
+The solutions to the Angular problems were divided into two routes that can be accessed through a button. The routing can be seen in the 'app-routing.module.ts' file.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The architecture was also divided into two folders for simplicity reasons: "sorter" for the Sorting problem and "repeater" for the repeater problem, both nested in the src/app folder.
 
-## Running end-to-end tests
+Each solutions has examples for testing purposes.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
