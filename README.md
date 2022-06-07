@@ -1,6 +1,6 @@
 # AngularAssessment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+This repository contains the solutions to the ECT Frontend assessment questions. It contains both the Javascript and the Angular solutions.
 
 ## Start project
 
