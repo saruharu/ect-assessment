@@ -1,1 +1,6 @@
-<div *ngFor="let item of option">{{item.name}}</div>
+<ng-template #childTemplate let-item="item">
+    <div>{{item.name}}</div>
+</ng-template>
+<ng-container *ngFor="let item of option">
+    <ng-container *ngTemplateOutlet="childTemplate;context:{item:item}"></ng-container>
+<ng-container>

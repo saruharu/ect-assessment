@@ -10,9 +10,5 @@ export class RepeaterComponent implements OnInit {
   @Input("option") option: any;
 
   ngOnInit() {
-    console.log("option", this.option);
-    for (let item of this.option) {
-      console.log("itemmm", item.name);
-    }
   }
 }

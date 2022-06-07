@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-repeat-display',
+  selector: 'repeat-display',
   templateUrl: './repeat-display.component.html',
   styleUrls: ['./repeat-display.component.sass']
 })
@@ -12,6 +12,5 @@ export class RepeatDisplayComponent implements OnInit {
   ngOnInit(): void {
   }
   data = [{ name: "A" }, { name: "B" }, { name: "C" }];
-
 
 }
